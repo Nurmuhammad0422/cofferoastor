@@ -1,0 +1,22 @@
+.site-header {
+    padding: 40px 0;
+    background-image: url("../images/bg-orange.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+   @include display($space:space-between);
+}
+.header__logo-link {
+    display: inline-block;
+}
+.header__list {
+    @include display($space:start);
+    gap: 40px;
+}
+
+.navbar__link {
+    @include textStyle($MB:0px,$FS:12px, $FW:700, $LH:14.06px,$Color:#333);
+    text-transform: uppercase;
+}
