@@ -1,7 +1,7 @@
 .our-section-wrapper{
     position: relative;
     background-image: url("../images/our-section-img.png");
-    background-size: cover;
+    background-size: 1400px 1739px;
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -25,6 +25,15 @@
     align-items: center;
     img:nth-child(1){
         margin-left: -150px;
+    }
+    img{
+        transition: all 0.4s;
+    }
+    img:nth-child(1):hover{
+        box-shadow: -15px 10px 10px rgb(0, 0, 0, 0.4);
+    }
+    img:nth-child(2):hover{
+        box-shadow: 13px 10px 15px rgb(0, 0, 0, 0.4);
     }
     img:nth-child(2){
         margin-left: 90px;
